@@ -414,10 +414,15 @@
             </li>
           </ul>
         </div>
-        <div class="subscribe-form">
+        <form class="subscribe-form">
           <label class="subs-form-field">
             <p class="footer-text">Subscribe</p>
-            <input type="email" class="subs-form-input" placeholder="E-mail" />
+            <input
+              type="email"
+              class="subs-form-input"
+              placeholder="E-mail"
+              required
+            />
           </label>
           <button type="submit" class="button subs">
             <span class="butn-text">Subscribe</span>
@@ -427,7 +432,7 @@
               </svg>
             </span>
           </button>
-        </div>
+        </form>
       </div>
     </footer>
 
@@ -500,22 +505,21 @@
               placeholder="Please leave your comment"
             ></textarea>
           </div>
+          <label class="checkbox-field">
+            <p class="policy-text">
+              I accept the terms and conditions of the
+              <a class="policy-link" href="">Privacy Policy</a>
+            </p>
+            <input type="checkbox" class="checkbox" />
+            <span class="checkbox-ikon">
+              <svg class="checkbox-ikon-image" width="10px" height="8px">
+                <use href="./images/ikons.svg#icon-Vector"></use>
+              </svg>
+            </span>
+          </label>
+
+          <button type="submit" class="button submit">Send</button>
         </form>
-
-        <label class="checkbox-field">
-          <p class="policy-text">
-            I accept the terms and conditions of the
-            <a class="policy-link" href="">Privacy Policy</a>
-          </p>
-          <input type="checkbox" class="checkbox" />
-          <span class="checkbox-ikon">
-            <svg class="checkbox-ikon-image" width="10px" height="8px">
-              <use href="./images/ikons.svg#icon-Vector"></use>
-            </svg>
-          </span>
-        </label>
-
-        <button type="submit" class="button submit">Send</button>
       </div>
     </div>
 

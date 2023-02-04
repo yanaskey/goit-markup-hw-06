@@ -513,6 +513,7 @@ img {
   margin-bottom: 8px;
   outline: none;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: var(--primary-text-color);
 }
 
 .form-input::placeholder,
@@ -527,7 +528,7 @@ textarea::placeholder {
   position: absolute;
   left: 16px;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(-63%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -763,6 +764,7 @@ textarea:focus {
 
 .footer > .container {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-media {
@@ -844,14 +846,14 @@ textarea:focus {
 
 .button.subs {
   align-self: flex-end;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
   min-width: 165px;
   height: 40px;
-  display: block;
-  padding: 8px 64px 8px 24px;
-
-  outline: none;
-  transform: translateY(-3px);
+  padding: 0 24px;
+  gap: 16px;
 }
 
 .butn-text {
@@ -863,8 +865,5 @@ textarea:focus {
 }
 
 .subs-ikon {
-  position: absolute;
-  top: 8px;
-  right: 24px;
   fill: var(--accent-white-color);
 }
